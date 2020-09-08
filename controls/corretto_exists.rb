@@ -1,13 +1,13 @@
-title 'Tests to confirm corretto8 exists'
+title 'Tests to confirm corretto exists'
 
 plan_origin = ENV['HAB_ORIGIN']
-plan_name = input('plan_name', value: 'corretto8')
+plan_name = input('plan_name', value: 'corretto')
 
-control 'core-plans-corretto8-exists' do
+control 'core-plans-corretto-exists' do
   impact 1.0
-  title 'Ensure corretto8 exists'
+  title 'Ensure corretto exists'
   desc '
-  Verify corretto8 by ensuring bin/java 
+  Verify corretto by ensuring bin/java 
   (1) exists and
   (2) is executable'
   
