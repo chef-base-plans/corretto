@@ -3,9 +3,9 @@ pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_name=corretto
 # NOTE: Retrieve download link from here: https://github.com/corretto/corretto-11/releases
 # More in-depth changelogs and download page is here: https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
-pkg_version=11.0.10.9.1
+pkg_version=11.0.13.8.1
 pkg_source="https://corretto.aws/downloads/resources/${pkg_version}/amazon-corretto-${pkg_version}-linux-x64.tar.gz"
-pkg_shasum=bf9380ee0cdd78fafb6d0cdfa0c1a97baaaec44432a15c8c2f296696ad9ed631
+pkg_shasum=99a3a60556db2ad3fd04b1b5ef9e31f035cf1ff3d88286c548b4b58971986452
 pkg_filename="corretto-${pkg_version}_linux-x64_bin.tar.gz"
 pkg_dirname="amazon-corretto-${pkg_version}-linux-x64"
 pkg_license=("GPL-2.0-only WITH Classpath-exception-2.0")
